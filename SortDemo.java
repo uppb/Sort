@@ -72,6 +72,18 @@ public class SortDemo {
 					}
 					} );
 				
+				JButton button5 = new JButton("HeapSort");
+				frame.getContentPane().add(button5);
+				button5.setBounds(450, 10, 100, 30);
+				button5.addActionListener(new ActionListener(){
+					@Override
+					public void actionPerformed(ActionEvent arg0) {
+						// TODO Auto-generated method stub
+						sortpanel.setSort(new HeapSort(sortData.clone()));
+						sortpanel.startSort();
+					}
+					} );
+				
 				
 				
 				//frame.pack();
