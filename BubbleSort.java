@@ -1,4 +1,3 @@
-
 public class BubbleSort extends Sort{
 	public BubbleSort(int[] data) {
 		super(data);
