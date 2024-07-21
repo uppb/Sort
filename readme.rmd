@@ -1,3 +1,2 @@
-
 # Sort Java
 BubbleSort is a Sort about Bubble
